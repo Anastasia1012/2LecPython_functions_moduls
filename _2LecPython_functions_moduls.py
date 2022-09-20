@@ -12,10 +12,12 @@
 #w – открытие для записи данных
 #w+, r+
 
-colours = ['red', 'green', 'blue']
-data = open('file.txt', 'a')#функия open, в file.txt мы передаем аргументы
+colours = ['red', 'green', 'blue3']
+data = open('file.txt', 'w')#функия open, в file.txt мы передаем аргументы
 data.writelines(colours)# разделителей не будет
 data.close() #закрываем файл из-за утечек памяти
+
+
 
 exit()#позволяет не проходить тот код, который дальше в скрипте написан
 path = 'file.txt'
