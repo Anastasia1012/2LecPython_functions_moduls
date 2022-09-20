@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "2LecPython_functions_moduls", "2LecPython_functions_moduls.pyproj", "{AF398468-828D-41D2-B986-19EC04F1C638}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF398468-828D-41D2-B986-19EC04F1C638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF398468-828D-41D2-B986-19EC04F1C638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97DBB23C-6CF6-473E-9BD2-D64CEF4963B3}
+	EndGlobalSection
+EndGlobal
