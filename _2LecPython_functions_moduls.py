@@ -12,6 +12,12 @@
 #w – открытие для записи данных
 #w+, r+
 
+with open('file.txt', 'w') as data: #означает, что данную конструкцию воспринимаем как переменную дата
+    #ЗАКРЫТИЯ ДАННЫХ В ЭТОМ СЛУЧАЕ БУДЕТ АВТОМАТИЧЕСКИМ! ЗДЕСЬ НЕ НУЖНА ФУНКЦИЯ CLOSE
+ data.write('line 1234\n')
+ data.write('line 2445\n')
+
+exit()
 colors = ['red', 'green', 'blue123']
 data = open('file.txt', 'a')
 #data.writelines(colors) # разделителей не будет
