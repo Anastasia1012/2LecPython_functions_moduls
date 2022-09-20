@@ -12,6 +12,14 @@
 #w – открытие для записи данных
 #w+, r+
 
+colors = ['red', 'green', 'blue123']
+data = open('file.txt', 'a')
+data.writelines(colors) # разделителей не будет
+data.write('\nLINE 2\n')
+data.write('LINE 3\n')
+data.close()
+
+exit()
 colours = ['red', 'green', 'blue3']
 data = open('file.txt', 'w')#функия open, в file.txt мы передаем аргументы
 data.writelines(colours)# разделителей не будет
